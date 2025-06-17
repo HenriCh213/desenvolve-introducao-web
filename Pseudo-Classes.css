@@ -1,0 +1,48 @@
+a {
+  color: black; 
+  font-weight: bold; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: gray; 
+}
+
+a:active {
+  color: rgb(54, 54, 54); 
+}
+
+a:visited {
+  font-weight: normal; 
+  color: brown; 
+}
+
+#zen-summary p:first-child::first-letter {
+  font-size: 3em;
+  font-family: 'Georgia', serif; 
+  float: left;
+  line-height: 0.8;
+  margin-right: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+
+.zen-resources ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.zen-resources li {
+  border-top: 1px solid black; 
+  padding: 0.5em 0;
+}
+
+.zen-resources li:last-child {
+  border-bottom: 1px solid black; 
+}
+
+.zen-resources li:first-child {
+  border-top: none; 
+}
