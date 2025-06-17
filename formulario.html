@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário - Pesquisa de Satisfação</h1>
+    </header>
+    <form action="..." method="post">
+        <div class="Dados">
+        <p>
+            <label for="username">Nome: </label>
+            <input type="text" placeholder="Nome" required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Email" required>
+        </p>
+        <p>
+            <label for="number">Telefone: </label>
+            <input type="text" placeholder="Telefone" required>
+        </p>
+        </div>
+        <div class="radio">
+            <p>
+                <h3>Você tem vontade de continuar no seu progresso?</h3>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Pesquisa1">
+
+                <label for="Nâo" form="Sim">Não</label>
+                <input type="radio" id="Não" name="Pesquisa1">
+            </p>
+            <p>
+                <h3>Você achou esse Formulário formidável?</h3>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Pesquisa2">
+                
+                <label for="Nâo">Não</label>
+                <input type="radio" id="Não" name="Pesquisa2">
+            </p>
+        </div>
+        <div class="select">
+            <h3>Qual seu estado?</h3>
+            <label for="Estado">UF</label>
+            <select>
+                 <option>Minas Gerais</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Brasília</option>
+                <option>Paraná</option>
+                <option>Amazonas</option>
+            </select>
+        </div>
+        <div class="Permission">
+            <h3>Você concorda em permitir que seus dados sejam compartilhados?</h3>
+            <label for="Permissão">Concordo</label>
+            <input type="checkbox">
+        </div>
+    </form>
+</body>
+</html>
