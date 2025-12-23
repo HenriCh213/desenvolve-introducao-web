@@ -1,0 +1,28 @@
+a {
+  color: #007bff; 
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  font-weight: normal; 
+}
+
+.main p:first-of-type::first-letter {
+  font-size: 3em;          
+  font-family: serif;     
+  float: left;            
+  line-height: 1;        
+  margin-right: 8px;      
+}
+
+.design-selection li {
+  border-top: 1px solid black; 
+}
+
+.design-selection li:last-child {
+  border-bottom: 1px solid black; 
+}
