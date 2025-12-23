@@ -1,0 +1,22 @@
+.page-wrapper {
+  position: relative;
+}
+
+
+.main {
+  width: 60%;
+  margin-right: 35%;
+}
+
+
+.explanation {
+  border-right: 1px solid #1f295c;
+}
+
+.sidebar {
+  position: absolute; 
+  top: 560px;       
+  left: 62%;         
+  width: 34%;        
+  padding: 0 2%;      
+}
