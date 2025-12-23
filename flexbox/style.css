@@ -1,0 +1,47 @@
+
+.main footer {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;        
+}
+
+.main footer a {
+    text-align: center;
+    min-width: 100px;        
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;        
+}
+
+.benefits p {
+    flex-basis: 70%;          
+}
+
+.benefits h3 {
+    flex-basis: 30%;             
+}
+
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;           
+    align-items: center;         
+}
+
+.participation h3, 
+.participation p {
+    flex-basis: 50%;           
+}
+
+
+.participation {
+    border-top: 1px solid black;
+}
+
+.benefits {
+    border-top: 1px solid black;    
+    border-bottom: 1px solid black; 
+}
